@@ -14,7 +14,7 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 - Sep (.im4p)
 
 Find your **device's info** here:
-#### For iPhone
+### For iPhone
 https://www.theiphonewiki.com/wiki/Firmware/iPhone
 ### For iPad
 https://www.theiphonewiki.com/wiki/Firmware/iPad
