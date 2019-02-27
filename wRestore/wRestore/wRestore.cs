@@ -80,5 +80,10 @@ namespace wRestore
         {
             Process.Start("https://www.theiphonewiki.com/wiki/Firmware/iPhone");
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Eperty123");
+        }
     }
 }

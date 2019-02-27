@@ -7,3 +7,4 @@ D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\w
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csproj.CoreCompileInputs.cache
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.exe
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.pdb
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csprojAssemblyReference.cache
