@@ -1,0 +1,9 @@
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\futurerestore.exe
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\wRestore.exe
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\wRestore.pdb
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.wRestore.resources
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.Properties.Resources.resources
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csproj.GenerateResource.cache
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csproj.CoreCompileInputs.cache
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.exe
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.pdb
