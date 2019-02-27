@@ -7,7 +7,7 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 * Futurerestore (very essential, won't run without it!)
 
 # Pre-requisit for restoring
-* You must have the following files:
+## You must have the following files:
 - Baseband (.bbfw)
 - Buildmanifest (.plist)
 - Shsh blob (.shsh2/.shsh)
