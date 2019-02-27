@@ -13,7 +13,7 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 - Shsh blob (.shsh2/.shsh)
 - Sep (.im4p)
 
-Also make sure to have internet as futurerestore will verify the restore with Apple's restore server during the process.
+Also make sure to have internet access as futurerestore will verify the restore with Apple's restore server during the process.
 
 # What else?
 You must always extract the latest revision of the baseband, buildmanifest and sep, as those are only gonna work when signed (except buildmanifest) and will likely brick your device forcing you to lose your jailbreak if not doing so.
