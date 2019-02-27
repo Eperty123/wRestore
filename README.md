@@ -1,6 +1,3 @@
-# wRestore
-A GUI for futurerestore
-
 # What is it?
 A simple GUI to easily restore your iDevice by parsing the appropriate commands to futurerestore, allowing you to not mess up or miss any crucial commands!
 
