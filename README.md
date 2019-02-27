@@ -18,6 +18,6 @@ Also make sure to have internet access as futurerestore will verify the restore 
 # What else?
 You must always extract the latest revision of the baseband, buildmanifest and sep, as those are only gonna work when signed (except buildmanifest) and will likely brick your device forcing you to lose your jailbreak if not doing so.
 
-#Latest futurerestore
+# Latest futurerestore
 So far s0uthwest has compiled an iOS 12 compatible version:
 https://github.com/s0uthwest/futurerestore/releases
