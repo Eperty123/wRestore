@@ -13,6 +13,8 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 - Shsh blob (.shsh2/.shsh)
 - Sep (.im4p)
 
+* The first 3 files above must come from the latest or currently signed firmware. You can only restore when these are signed. Unsigned firmwares won't do. *
+
 Find your **device's info** here:
 ### For iPhone
 https://www.theiphonewiki.com/wiki/Firmware/iPhone
@@ -22,9 +24,6 @@ https://www.theiphonewiki.com/wiki/Firmware/iPad
 https://www.theiphonewiki.com/wiki/Firmware/iPod_touch
 
 *Also make sure to have internet access as futurerestore will likely verify the restore progress with Apple's restore server during the process.*
-
-# What else?
-You must always extract the latest revision of the baseband, buildmanifest and sep, as those are only gonna work when signed (except buildmanifest) and will likely brick your device forcing you to lose your jailbreak if not doing so.
 
 # Latest futurerestore
 wRestore uses the latest available futurerestore to ensure full compatibility with latest iOS version.
