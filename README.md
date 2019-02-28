@@ -13,7 +13,7 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 - Sep (.im4p)
 - Shsh blob (.shsh2/.shsh)
 
-* The first 3 files above must come from the latest or currently signed firmware. Unsigned firmwares won't do. *
+* The first 3 files above must come from the latest or currently signed firmware. Unsigned firmwares won't do.*
 
 Find your **device's info** here:
 ### For iPhone
