@@ -10,8 +10,8 @@ A simple GUI to easily restore your iDevice by parsing the appropriate commands 
 ### You must have the following files:
 - Baseband (.bbfw)
 - Buildmanifest (.plist)
-- Shsh blob (.shsh2/.shsh)
 - Sep (.im4p)
+- Shsh blob (.shsh2/.shsh)
 
 * The first 3 files above must come from the latest or currently signed firmware. You can only restore when these are signed. Unsigned firmwares won't do. *
 
