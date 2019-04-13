@@ -30,3 +30,7 @@ wRestore uses the latest available futurerestore to ensure full compatibility wi
 So far s0uthwest has compiled an iOS 12 compatible version:
 https://github.com/s0uthwest/futurerestore/releases
 Thanks bro!
+
+# Special thanks
+Thanks to Adam Wolf for providing all iDevice identifiers and models
+s0uthwest for his iOS 12 compatible futurerestore.
