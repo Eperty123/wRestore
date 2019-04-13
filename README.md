@@ -32,5 +32,5 @@ https://github.com/s0uthwest/futurerestore/releases
 Thanks bro!
 
 # Special thanks
-Thanks to Adam Wolf for providing all iDevice identifiers and models
-s0uthwest for his iOS 12 compatible futurerestore.
+* Thanks to Adam Wolf for providing all iDevice identifiers and models
+* s0uthwest for his iOS 12 compatible futurerestore.
