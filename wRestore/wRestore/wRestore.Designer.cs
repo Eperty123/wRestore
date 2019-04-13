@@ -51,8 +51,13 @@
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.deviceVersionLbl = new System.Windows.Forms.Label();
+            this.deviceModelLbl = new System.Windows.Forms.Label();
+            this.deviceNameLbl = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -120,9 +125,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(96, 13);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Sep (latest)";
+            this.label4.Text = "Sep (latest/signed)";
             // 
             // sepTxtBox
             // 
@@ -146,9 +151,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(3, 142);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 13);
+            this.label3.Size = new System.Drawing.Size(139, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Buildmanifest (latest)";
+            this.label3.Text = "Buildmanifest (latest/signed)";
             // 
             // buildmanifestTxtBox
             // 
@@ -172,9 +177,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(3, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(125, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Baseband (latest)";
+            this.label2.Text = "Baseband (latest/signed)";
             // 
             // basebandTxtBox
             // 
@@ -211,7 +216,7 @@
             // 
             // StartRestoreBtn
             // 
-            this.StartRestoreBtn.Location = new System.Drawing.Point(151, 265);
+            this.StartRestoreBtn.Location = new System.Drawing.Point(160, 386);
             this.StartRestoreBtn.Name = "StartRestoreBtn";
             this.StartRestoreBtn.Size = new System.Drawing.Size(132, 23);
             this.StartRestoreBtn.TabIndex = 1;
@@ -221,7 +226,7 @@
             // 
             // exitRecoveryBtn
             // 
-            this.exitRecoveryBtn.Location = new System.Drawing.Point(151, 294);
+            this.exitRecoveryBtn.Location = new System.Drawing.Point(160, 415);
             this.exitRecoveryBtn.Name = "exitRecoveryBtn";
             this.exitRecoveryBtn.Size = new System.Drawing.Size(132, 23);
             this.exitRecoveryBtn.TabIndex = 2;
@@ -232,7 +237,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(211, 329);
+            this.linkLabel1.Location = new System.Drawing.Point(220, 454);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(72, 13);
             this.linkLabel1.TabIndex = 3;
@@ -244,7 +249,7 @@
             // 
             this.groupBox2.Controls.Add(this.linkLabel3);
             this.groupBox2.Controls.Add(this.linkLabel2);
-            this.groupBox2.Location = new System.Drawing.Point(12, 265);
+            this.groupBox2.Location = new System.Drawing.Point(12, 377);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(133, 74);
             this.groupBox2.TabIndex = 4;
@@ -276,7 +281,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(9, 356);
+            this.linkLabel4.Location = new System.Drawing.Point(141, 454);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(73, 13);
             this.linkLabel4.TabIndex = 5;
@@ -284,11 +289,51 @@
             this.linkLabel4.Text = "By: Eperty123";
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.deviceVersionLbl);
+            this.groupBox3.Controls.Add(this.deviceModelLbl);
+            this.groupBox3.Controls.Add(this.deviceNameLbl);
+            this.groupBox3.Location = new System.Drawing.Point(12, 265);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(271, 106);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Device Info";
+            // 
+            // deviceVersionLbl
+            // 
+            this.deviceVersionLbl.AutoSize = true;
+            this.deviceVersionLbl.Location = new System.Drawing.Point(6, 76);
+            this.deviceVersionLbl.Name = "deviceVersionLbl";
+            this.deviceVersionLbl.Size = new System.Drawing.Size(48, 13);
+            this.deviceVersionLbl.TabIndex = 2;
+            this.deviceVersionLbl.Text = "Version: ";
+            // 
+            // deviceModelLbl
+            // 
+            this.deviceModelLbl.AutoSize = true;
+            this.deviceModelLbl.Location = new System.Drawing.Point(6, 53);
+            this.deviceModelLbl.Name = "deviceModelLbl";
+            this.deviceModelLbl.Size = new System.Drawing.Size(42, 13);
+            this.deviceModelLbl.TabIndex = 1;
+            this.deviceModelLbl.Text = "Model: ";
+            // 
+            // deviceNameLbl
+            // 
+            this.deviceNameLbl.AutoSize = true;
+            this.deviceNameLbl.Location = new System.Drawing.Point(6, 28);
+            this.deviceNameLbl.Name = "deviceNameLbl";
+            this.deviceNameLbl.Size = new System.Drawing.Size(41, 13);
+            this.deviceNameLbl.TabIndex = 0;
+            this.deviceNameLbl.Text = "Name: ";
+            // 
             // wRestore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 378);
+            this.ClientSize = new System.Drawing.Size(295, 477);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.linkLabel4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.linkLabel1);
@@ -300,10 +345,13 @@
             this.Name = "wRestore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "wRestore";
+            this.Load += new System.EventHandler(this.wRestore_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,6 +382,10 @@
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label deviceVersionLbl;
+        private System.Windows.Forms.Label deviceModelLbl;
+        private System.Windows.Forms.Label deviceNameLbl;
     }
 }
 

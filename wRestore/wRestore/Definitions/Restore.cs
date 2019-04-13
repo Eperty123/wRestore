@@ -114,7 +114,7 @@ namespace wRestore.Definitions
         /// </summary>
         /// <param name="title">Title of the file browser.</param>
         /// <param name="type">Type to browse.</param>
-        public void BrowseFile(string title, Type type)
+        public void BrowseFile(string title, FileType type)
         {
             FileBrowser = new OpenFileDialog();
             FileBrowser.Title = title;
@@ -122,23 +122,23 @@ namespace wRestore.Definitions
 
             switch (type)
             {
-                case Type.Blob:
+                case FileType.Blob:
                     FileBrowser.Filter = "Shsh blob v2|*.shsh2|Shsh blob|*.shsh";
                     break;
 
-                case Type.Baseband:
+                case FileType.Baseband:
                     FileBrowser.Filter = "Baseband|*.bbfw";
                     break;
 
-                case Type.Buildmanifest:
+                case FileType.Buildmanifest:
                     FileBrowser.Filter = "Buildmanifest|*.plist";
                     break;
 
-                case Type.IPSW:
+                case FileType.IPSW:
                     FileBrowser.Filter = "IPSW|*.ipsw";
                     break;
 
-                case Type.Sep:
+                case FileType.Sep:
                     FileBrowser.Filter = "Sep|*.im4p";
                     break;
             }
@@ -149,27 +149,27 @@ namespace wRestore.Definitions
 
                 switch (type)
                 {
-                    case Type.Blob:
+                    case FileType.Blob:
                         FileBrowser.Filter = "Shsh blob v2|*.shsh2|Shsh blob|*.shsh";
                         TargetBlob = ChosenFile;
                         break;
 
-                    case Type.Baseband:
+                    case FileType.Baseband:
                         FileBrowser.Filter = "Baseband|*.bbfw";
                         TargetBaseband = ChosenFile;
                         break;
 
-                    case Type.Buildmanifest:
+                    case FileType.Buildmanifest:
                         FileBrowser.Filter = "Buildmanifest|*.plist";
                         TargetBuildmanifest = ChosenFile;
                         break;
 
-                    case Type.IPSW:
+                    case FileType.IPSW:
                         FileBrowser.Filter = "IPSW|*.ipsw";
                         TargetVersion = ChosenFile;
                         break;
 
-                    case Type.Sep:
+                    case FileType.Sep:
                         FileBrowser.Filter = "Sep|*.im4p";
                         TargetSep = ChosenFile;
                         break;
@@ -177,15 +177,13 @@ namespace wRestore.Definitions
             }
         }
 
-        /// <summary>
-        /// Assign checkboxes. (Unused for now...)
-        /// </summary>
-        /// <param name="baseband">Baseband checkbox.</param>
-        /// <param name="sep">Sep checkbox.</param>
-        public void SetCheckboxes(CheckBox baseband, CheckBox sep)
+        public enum FileType
         {
-            UseLatestBaseband = baseband.Checked;
-            UseLatestSep = sep.Checked;
-        }
+            Blob,
+            Baseband,
+            Buildmanifest,
+            IPSW,
+            Sep
+        };
     }
 }

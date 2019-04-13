@@ -1,4 +1,3 @@
-D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\futurerestore.exe
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\wRestore.exe
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\wRestore.pdb
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.wRestore.resources
@@ -8,3 +7,8 @@ D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\w
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.exe
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.pdb
 D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csprojAssemblyReference.cache
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\wRestore.exe.config
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\iMobileDevice-net.dll
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\iMobileDevice-net.pdb
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\bin\Release\iMobileDevice-net.xml
+D:\Medier\Dokumenter\Visual Studio 2017\Projects\wRestore\wRestore\obj\Release\wRestore.csproj.CopyComplete
